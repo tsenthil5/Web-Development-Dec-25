@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Senthil">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <div id="message">
+        
+    </div><br><br>
+
+        <div id="form">
+            <div>
+            <label for="account-name">Account Name</label>
+        <input type="text" name="Account" id="account-name" pattern="[a-zA-Z][a-zA-Z0-9]*" disabled>
+        <label for="account-value">Senthil</label><br><br></div>
+
+
+        <div>    
+            <label for="display-name">Display Name</label>
+        <input type="text"name="Display" id="display-name"class="ogValues">
+        <label id = "display-og" ></label><br><br></div>
+
+
+        <div>    
+            <label for="email-address">Email Address</label>
+        <input type="email" name="Email"id="email"class="ogValues">
+        <label id = "email-og" ></label><br><br></div>
+
+        <div>
+            
+            <label for="phone-number">Phone Number</label>
+        <input type="tel" name="Phone"id = "ph-number"class="ogValues">
+        <label id = "phone-og" ></label><br><br></div>
+
+
+        <div>    
+            <label for="date-of-birth">D-O-B</label>
+        <input type="date"name="DOB" id="curr-date" disabled>
+        <label for="account-value">09-23-1999</label><br><br></div>
+
+
+        <div>    
+            <label for="zipcode">Zipcode</label>
+        <input type="text"name="Zipcode"  class="ogValues"id="zipcode" pattern="[0-9]*">
+        <label id = "zipcode-og" ></label><br><br></div>
+
+        <div>    
+            <label for="password">Password</label>
+        <input type="password"name="Password" class="ogValues"id="pw-new">
+        <label id = "pw-new-og" ></label><br><br></div>
+
+        <div>
+            
+            <label for="password-conf">Password Confirmation</label>
+        <input type="password"id="conf-pw"class="ogValues">
+        <label id = "pw-conf-og" ></label><br><br></div>
+
+
+            
+            <input type="submit" value="Update" id="submitButton">
+            <a href="main.html" class="button">Main Page</a>
+        
+        </div>
+    </div>
+
+    <script src="profile.js">    
+    </script>
+</body>
+</html>
