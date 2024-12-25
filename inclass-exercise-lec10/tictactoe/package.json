@@ -1,0 +1,44 @@
+{
+  "name": "tictactoe",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "cra-template": "1.2.0",
+    "jsdom": "^25.0.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-scripts": "^3.0.1",
+    "request": "^2.88.2",
+    "semver": "^7.6.3",
+    "serialize-javascript": "^6.0.2",
+    "shell-quote": "^1.8.2",
+    "sockjs": "^0.3.24",
+    "terser": "^5.37.0",
+    "tough-cookie": "^5.0.0",
+    "yargs-parser": "^21.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
